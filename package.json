@@ -4,5 +4,21 @@
   "main": "index.js",
   "repository": "https://github.com/w01fgang/antispam-cleantalk.git",
   "author": "w01fgang <sumin@unix-center.ru> (http://v-tour.pro/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.1.8",
+    "eslint": "3.13.1",
+    "eslint-config-airbnb": "14.0.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "3.0.2",
+    "eslint-plugin-react": "6.9.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d lib --ignore *.test.*"
+  },
+  "dependencies": {
+    "superagent": "^3.3.2"
+  }
 }
