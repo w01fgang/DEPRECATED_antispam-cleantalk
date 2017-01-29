@@ -3,6 +3,7 @@ module.exports = {
     "installedESLint": true,
     "env": {
         "jest": true,
+        "jasmine": true,
         "node": true
     },
     "plugins": [
