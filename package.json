@@ -21,6 +21,7 @@
     "build": "babel src -d lib --ignore *.test.*"
   },
   "dependencies": {
-    "superagent": "^3.3.2"
+    "request": "^2.79.0",
+    "request-promise-native": "^1.0.3"
   }
 }
